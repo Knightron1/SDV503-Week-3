@@ -62,4 +62,3 @@ console.log(yy)
 for (let i = 0; i<=20; i++)
 console.log(i);
 // This for loop runs i(= 0) incrementing one every loop until it reaches a value equal to or greater than 20
-
