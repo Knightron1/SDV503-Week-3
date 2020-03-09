@@ -12,3 +12,19 @@ var mult = a * b;
 console.log(a +" * " +b +" = " + mult);
 var expo = a ** b;
 console.log(a + " to the power of " + b + " = " + expo);
+
+console.log(d ** d)
+console.log(b * c)
+// Using quokka allowed me to see the results of the equation in the same line as its code
+let x = 10
+let y = x
+
+console.log("pre-increment")
+y = ++x;
+console.log(x)
+console.log(y)
+
+console.log("post-increment")
+y = x++;
+console.log(x)
+console.log(y)
