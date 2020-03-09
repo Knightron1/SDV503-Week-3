@@ -100,3 +100,31 @@ console.log(null + 1);
 console.log(undefined > 0);
 console.log(undefined + 1);
 //While null can be converted to a number, undefined can not hence the not a number (NaN) 
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+console.log(1 || 1);
+console.log(1 || 0);
+console.log(0 || 1);
+console.log(0 || 0);
+
+console.log(5 || 10);
+console.log(1 || 1000);
+console.log(0 || 1);
+console.log(0 || 0);
+console.log(5 || true);
+console.log(true || 1000);
+console.log(0 || true);
+console.log(true || 0);
+
+console.log(5 && 10);
+console.log(1 && 1000);
+console.log(0 && 1);
+console.log(0 && 0);
+console.log(5 && true);
+console.log(true && 1000);
+console.log(0 && true);
+console.log(true && 0);
