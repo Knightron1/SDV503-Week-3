@@ -48,3 +48,28 @@ if (b < a) {console.log('One is less than the other')}
 if (a >= b) {console.log('One is greater or equal to the other')}
 
 if (b <= a) {console.log('One is lesser or equal to the other')}
+
+console.log(10 == 5)
+console.log(10 != 5)
+console.log(10 > 5)
+console.log(10 < 5)
+console.log(10 >= "5")
+console.log(10 >= "10")
+console.log(10 <= "10")
+console.log(10 == "10")
+console.log(10 === "10")
+console.log(10 !== "10")
+
+console.log(true == 1);
+console.log(true == "1");
+console.log(true == 0);
+console.log(true == 1);
+console.log(true == 0);
+console.log(false == "0");
+console.log(true != 1);
+console.log(true != "1");
+console.log(true != 0);
+console.log(false != 1);
+console.log(false != 0);
+console.log(false != "0");
+

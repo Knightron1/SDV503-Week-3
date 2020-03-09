@@ -6,4 +6,5 @@ Why have I learned this?
 This was part of the required learning, but more importantly this gave me an understanding of the subtleties of java operation.
 
 How have I learned this?
-By experimenting with code and seeing how java solves expressions arrayed before it
+By experimenting with code and seeing how java solves expressions arrayed before I've learned that Java reads everything from left to right and this affects how it solves expressions.
+c
