@@ -45,3 +45,19 @@ console.log(y)
 y = x--;
 console.log(x)
 console.log(y)
+
+// some more examples to highlight the difference between pre and post inc/decrements
+
+let xx = 1
+console.log(xx)
+console.log(10 * ++xx)
+console.log(xx);
+// This increases the value of the xx before running the expression
+let yy = 1
+console.log(yy)
+console.log(10 * yy++)
+console.log(yy)
+// This increases the value of yy after running the expression (so its only 10 x 1)
+
+for (let i = 0; i<=20; i++)
+console.log(i);
