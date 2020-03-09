@@ -15,7 +15,7 @@ console.log(a + " to the power of " + b + " = " + expo);
 
 console.log(d ** d)
 console.log(b * c)
-// Using quokka allowed me to see the results of the equation in the same line as its code
+// Using quokka allowed me to see the results of the expression in the same line as its code
 const t = 10
 console.log(t)
 //console.log(++t)
@@ -45,5 +45,3 @@ console.log(y)
 y = x--;
 console.log(x)
 console.log(y)
-
-// 
