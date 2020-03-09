@@ -86,3 +86,17 @@ console.log(1 === "1")
 //This is comparing whether 1 is the same as "1" but also checking if the data types match, in this case they dont
 console.log(1 !== "1")
 // This is comparing 1 and "1" while also checking if the data types dont match, which in this case is true
+
+console.log(null == 0);
+console.log(null===0);
+console.log(null>0);
+console.log(null<0);
+console.log(null>=0);
+console.log(undefined == null);
+console.log(undefined === null);
+console.log(undefined == 0);
+// Null is counted as a 0 for a few cases, whereas undefined is only equal to null. Otherwise undefined is not a number 
+console.log(null + 1);
+console.log(undefined > 0);
+console.log(undefined + 1);
+//While null can be converted to a number, undefined can not hence the not a number (NaN) 
