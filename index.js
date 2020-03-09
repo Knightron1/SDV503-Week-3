@@ -18,7 +18,7 @@ console.log(b * c)
 // Using quokka allowed me to see the results of the expression in the same line as its code
 const t = 10
 console.log(t)
-//console.log(++t)
+//console.log(++t) gave back an error code as (read note below)
 // Constants are unable to be incremented as they are a constant value
 let x = 10
 let y = x
