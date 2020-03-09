@@ -73,3 +73,16 @@ console.log(false != 1);
 console.log(false != 0);
 console.log(false != "0");
 
+console.log("A" == "A");
+console.log("a" == "a");
+console.log("words"=="words");
+console.log ("Z" > "A")
+console.log("Raise" > "Race")
+console.log("a" >= "A")
+
+console.log(1 == "1")
+//This is comparing whether 1 is the same as "1" and because the == operator changes everything to a number they are the same.
+console.log(1 === "1")
+//This is comparing whether 1 is the same as "1" but also checking if the data types match, in this case they dont
+console.log(1 !== "1")
+// This is comparing 1 and "1" while also checking if the data types dont match, which in this case is true
